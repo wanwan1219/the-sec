@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        /*伪类*/
+        /*link 和 visited 是a所特有的伪类*/
+        /*hover是所有标签都具有*/
+        /*顺序必须是严格的*/
+        a{
+            display: inline-block;
+            width: 100px;
+        }
+        a:link{
+            background: yellow;
+        }
+        a:visited{
+            background: bisque;
+        }
+        a:hover{
+            background: black;
+        }
+        a:active{
+            background: green;
+        }
+        /*相邻兄弟选择器 紧挨着的那个起作用*/
+        div+p{
+            color: red;
+        }
+        /*兄弟选择器 所有的兄弟p*/
+        div~p{
+            color: #0a56bb;
+        }
+    </style>
+</head>
+<body>
+a标签选择器
+LOVE HEAT
+link 未访问
+visited 已访问过的
+hover 悬停
+active 按下
+<div></div>
+<p></p>
+<p></p>
+<p></p>
+</body>
+</html>

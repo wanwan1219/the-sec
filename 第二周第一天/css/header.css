@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.lt{
+    float: left;
+}
+.rt{
+    float: right;
+}
+.header{
+    background-color: #0058ab;
+}
+.inner{
+    margin: auto;
+    width: 1003px;
+}
+.inner1{
+    background-color: #0058ab;
+}
+.icon{
+    float: left;
+}
+.dh{
+    float: right;
+}
+i{
+    background: url("../images/jingling.png") no-repeat;
+    display: inline-block;
+}
+.xl{
+    height: 22px;
+    width: 22px;
+    background-position: -125px -158px;
+}
+.tx{
+    height: 22px;
+    width: 22px;
+    background-position: -86px -157px;
+}
+.rr{
+    height: 22px;
+    width: 22px;
+    background-position: -47px -157px;
+}
+.wx{
+    height: 22px;
+    width: 22px;
+    background-position: -5px -157px;
+}
+.tel{
+    height: 13px;
+    width: 11px;
+    background-position: -5px -106px;
+}
+.clear{
+    clear: both;
+}
+.logo{
+    height: 115px;
+}
+.lglt{
+    margin-top: 17px;
+    float: left;
+}
+.logo1{
+    height: 88px;
+    width: 147px;
+    background-position: -227px -220px;
+}
+.lgrt li{
+    margin-top: 17px;
+    float: left;
+    height: 84px;
+    width: 70px;
+    color: #888787;
+    margin-left: 30px;
+}
+.sear{
+    float: right;
+    margin-top: 40px;
+}
+.yuan1{
+    height:56px ;
+    width: 56px;
+    background-position: -70px 0;
+}
+.yuan2{
+    height:56px ;
+    width: 56px;
+    background-position: -5px 0;
+}
+.yuan3{
+    height:56px ;
+    width: 56px;
+    background-position: -275px 0;
+}
+.yuan4{
+    height:56px ;
+    width: 56px;
+    background-position: -205px 0;
+}
+.yuan5{
+    height:56px ;
+    width: 56px;
+    background-position: -135px 0;
+}
+.yuan6{
+    height: 56px;
+    width: 56px;
+    background-position: -135px 0;
+}
+.ss{
+    height: 21px;
+    width: 21px;
+    background-position: -82px -104px;
+}
+input{
+    float: left;
+    line-height: 115px;
+    height: 30px;
+    width: 190px;
+}
+button{
+    height: 30px;
+    width: 38px;
+    margin-left: 0;
+    border-left: 0;
+    background: #0058ab;
+}
+a{
+    color:#888787;
+    text-decoration: none;
+}

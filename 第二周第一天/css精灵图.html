@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        /*精灵图*/
+        /*css sprites技术、图片合成技术*/
+        /*特点：把许多小图片放在一张大图上进行组合*/
+        /*优势：1.减少了对http/服务器的请求次数
+                2.减少了命名量*/
+        div{
+            width: 16px;
+            height: 16px;
+            background: url("img/cssSprites.png")no-repeat;
+            background-position: -25px -25px;
+        }
+        .tu1{
+            background-position: 0 -24px;/*不要多次引进背景图片*/
+        }
+        .tu2{
+            height: 20px;
+            width: 42px ;
+            background-position: -150px -75px;
+        }
+    </style>
+</head>
+<body>
+<div></div>
+<div class="tu1"></div>
+<div class="tu2"></div>
+<div></div>
+<div></div>
+</body>
+</html>

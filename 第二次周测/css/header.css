@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+img{
+    border: 0;
+}
+.inner{
+    width: 1200px;
+    margin: auto;
+}
+i{
+    display: inline-block;
+    background: url("../images/jl.png") no-repeat;
+}
+.clear:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.clear{
+    zoom: 1;
+}
+.header .inner .logo-lt{
+    float: left;
+    padding-left: 53px;
+    margin-bottom: 5px;
+}
+.header .inner .logo-lt i{
+    width: 60px;
+    height: 60px;
+    background-position:0 -52px ;
+    vertical-align: middle;
+    /*margin-left: 53px;*/
+}
+.header .inner .logo-lt span{
+   font: bold 30px/60px "宋体";
+    color: #ff6801;
+}
+.header .inner .logo-ct{
+    float: left;
+    padding-right: 123px;
+}
+.header .inner .logo-ct li{
+    float: left;
+    margin-left: 50px;
+    font: 24px/60px "微软雅黑";
+}
+.header .inner .logo-rt{
+    float: right;
+    padding-top: 47px;
+}
+.header .inner .logo-rt a{
+    color: black;
+    font:12px/20px "微软雅黑";
+    /*margin-top: 40px;*/
+    /*padding-top: 10px;*/
+    /*padding-right: 55px;*/
+}
+.header .inner .logo-rt a:last-of-type{
+    padding-right: 55px;
+}

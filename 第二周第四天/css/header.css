@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.inner{
+    width: 1110px;
+    margin: auto;
+}
+.div1{
+    width: 630px;
+    height: 310px;
+    background: red;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.div2{
+    width: 150px;
+    height: 150px;
+    background: blue;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.main .inner .top .div4{
+    margin-right: 0;
+}
+.main .inner .bot .div3{
+    width: 310px;
+}
+.main .inner .bot .div2:nth-of-type(6){
+    margin-right: 0;
+}

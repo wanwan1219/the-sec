@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            background:red;
+            position: absolute;
+        }
+        .div1{
+            background: #ffcd96;
+            left: 20px;
+            z-index: 3;/*不设值的默认是最低的 越高越在上面*/
+        }
+        .div2{
+            background: blue;
+            top: 20px;
+            z-index: 5;
+        }
+    </style>
+</head>
+<body>
+<div class="div1"></div>
+<div class="div2"></div>
+<div class="div3"></div>
+<div class="div4"></div>
+<div class="div5"></div>
+</body>
+</html>

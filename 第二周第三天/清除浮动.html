@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        /*伪类清除 虚拟.clear:before .clear:after*/
+        .clear:after{
+            content: "";/*把虚拟的盒子实例化*/
+            display:block;/*都设置成块*/
+            clear: both;
+        }
+        .clear{
+            zoom: 1;/*兼容低版本ie浏览器*/
+        }
+        .left{
+            width: 100px;
+            height: 100px;
+            background-color: #3f3f3f;
+            float: left;
+        }
+        .right{
+            width: 100px;
+            height: 100px;
+            background-color: #00a261;
+            float: right;
+        }
+        .div1{
+            width: 1000px;
+            height: 100px;
+            background-color: #7bf3ff;
+        }
+        .div4{
+            width: 1000px;
+            height: 100px;
+            background-color:#9f8bff;
+        }
+    </style>
+</head>
+<body>
+<div class="div1 clear">
+    <div class="left"></div>
+    <div class="right"></div>
+</div>
+<div class="div4"></div>
+</body>
+</html>

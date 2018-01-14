@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding:0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    border: 0;
+}
+.inner{
+    width: 1200px;
+    margin: auto;
+}
+i{
+    background: url("../images/1.png");
+    display: inline-block;
+}
+.header .inner .logo{
+    float: left;
+    height: 58px;
+    width: 209px;
+    background-position: -3px -193px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    /*vertical-align: middle;*/
+}
+.header .inner .header-ce{
+    float: left;
+    margin-left: 200px;
+    margin-top: 45px;
+    margin-bottom: 25px;
+}
+.header .inner .header-ce a{
+    margin-right: 45px;
+    color: black;
+}
+.header .inner .header-rt{
+    float: right;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.header .inner .header-rt .nh{
+    height: 20px;
+}
+.header .inner .header-rt .search{
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.header .inner .header-rt .gwc{
+    width: 16px;
+    height: 16px;
+    background-position: -1px -49px;
+}
+.header .inner .header-rt a{
+    color: #9f9f9f;
+    margin-left: 5px;
+    font-size: 13px;
+}
+.header .inner .header-rt .search-tu{
+    height: 30px;
+    width: 170px;
+    background-position: -2px 0;
+    position: relative;
+}
+.header .inner .header-rt .search-tu input{
+    height: 28px;
+    width: 140px;
+    position: absolute;
+    top: 2px;
+    left:0;
+    margin-left: 5px;
+    border: 0;
+}
+.clear:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.clear{
+    zoom: 1;
+}
+.banner .inner img{
+    width: 100%;
+}
+.main{
+    background: #eaeaea;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+}
+.main .inner{
+    margin-top: 29px;
+    /*background: #ffffff;*/
+}
+.main .inner .pho{
+    border-bottom: 1px solid #cccccc;
+    width: 980px;
+    margin-left: 15px;
+}
+.main .inner .pho1{
+    border-bottom:0
+}
+.main .inner .pho input{
+    margin-bottom: 20px;
+    margin-top: 35px;
+}
+.main .inner .main-top{
+    margin-top: 30px;
+    background: #ffffff;
+}
+.main .inner .tu{
+    margin-top: 10px;
+}
+.main .inner .tu li{
+    float: left;
+    border:1px solid #cccccc;
+    margin-right: 1px;
+    height: 540px;
+    background: white;
+}
+.main .inner .tu li:nth-of-type(4n){
+    float: right;
+    margin-right: 0;
+}
+.main .inner .tu ul li .p1{
+    font-weight: bold;
+    font-size: 12px;
+    color: black;
+    text-align: center;
+    line-height: 30px;
+}
+.main .inner .tu ul li .p2{
+    font-size: 12px;
+    color: #cccccc;
+    text-align: center;
+    line-height: 30px;
+}
+.main .inner .tu ul li .p3{
+    font-size: 12px;
+    color: red;
+    text-align: center;
+    line-height: 30px;
+}
+.main .inner .ym a{
+    border: 1px solid #cccccc;
+    color: black;
+    margin-right: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+.main .inner .ym a:first-child{
+    margin-left: 495px;
+}
+.main .inner .ym{
+    background: white;
+    height: 70px;
+    margin-top: 20px;
+    line-height: 70px;
+    /*margin-bottom: 20px ;*/
+}
+.footer .inner .footer-top i{
+    width: 45px;
+    height: 45px;
+}
+.footer .inner .footer-top .tu1{
+    background-position: -184px -78px;
+    float: left;
+}
+.footer .inner .footer-top .tu2{
+    float: left;
+    background-position: -65px -78px;
+}
+.footer .inner .footer-top .tu3{
+    float: left;
+    background-position: -127px -78px;
+}
+.footer .inner .footer-top .tu4{
+    float: left;
+    background-position: -184px -78px;
+}
+.footer .inner .footer-top p{
+    font-size: 16px;
+    line-height: 20px;
+}
+.footer .inner .footer-top .tu{
+    float: left;
+    width: 125px;
+    margin-right: 150px;
+}
+.footer .inner .footer-top .tu .zi{
+    float: left;
+}
+.footer .inner .footer-top{
+    border-bottom: 1px solid #cccccc;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+.footer .footer-bot .p1{
+    font-size: 17px;
+    font-weight: bold;
+}
+.footer .footer-bot i{
+    width: 103px;
+    height: 140px;
+    background-position: 0 -251px;
+}
+.footer .footer-bot div{
+    margin-top: 45px;
+    margin-bottom: 45px;
+    margin-right: 90px;
+    width: 110px;
+    height: 160px;
+    float: left;
+}
+.footer .footer-bot p{
+    font-size: 11px;
+}
+footer .footer-bot div:last-child{
+    margin-right: 0;
+    /*white-space: ;*/
+}

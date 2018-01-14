@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    border: 0;
+}
+/*input{*/
+    /*border: 0;*/
+    /*outline: none;*/
+/*}*/
+.header{
+    background: url("../images/ba_02.png") repeat-x;
+}
+.inner{
+    width: 980px;
+    margin: auto;
+}
+.header .inner .logo .logo-lt{
+    float: left;
+}
+.header .inner .logo .logo-lt p{
+    font:bold  30px/70px "黑体";
+    color: red;
+}
+.header .inner .logo .logo-rt{
+    float: right;
+}
+.header .inner .logo .logo-rt .to a{
+    color: red;
+    font: 12px/30px "宋体";
+    float: right;
+}
+.header .inner .logo .logo-rt .bo select{
+    width: 60px;
+    height: 20px;
+    text-align: center;
+}
+.header .inner .logo .logo-rt .bo input{
+    width: 170px;
+    height: 20px;
+    margin-left: 10px;
+}
+i{
+    background: url("../images/1.png");
+    display: inline-block;
+}
+.header .inner .logo .logo-rt .bo i{
+    width: 55px;
+    height: 25px;
+    background-position: 0 -48px;
+    margin-left: 20px;
+    vertical-align: middle;
+}
+.clear:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.clear{
+    zoom: 1;
+}
+.banner{
+    position: relative;
+    background: #697b85;
+}
+.banner img{
+    width: 100%;
+}
+.banner .inner ul{
+    position: absolute;
+    top: 0;
+}
+.banner .inner ul li{
+    float: left;
+    width: 120px;
+    height: 35px;
+    color: white;
+    text-align: center;
+    font: bold 12px/35px "宋体";
+}
+.main{
+    background: #697b85;
+}
+.main .main-lt .lt1{
+    width: 210px;
+    text-align: center;
+    /*height: 280px;*/
+    background: #eff2f7;
+    margin-bottom: 10px;
+}
+.main .main-lt p{
+    font: bold 16px/30px "黑体";
+    text-align: center;
+    color: #193d4d;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+.main .main-lt .lt1 input{
+    text-align: center;
+    width: 187px ;
+    height: 30px;
+    margin:10px;
+}
+.main .main-lt .lt2 input{
+    width: 110px;
+    height: 20px;
+}
+.main .main-lt .lt2 .yzm{
+    width: 50px;
+    height: 20px;
+}
+.main .main-lt .lt2 i{
+    width: 50px;
+    height: 20px;
+    background-position: 0 -218px;
+    vertical-align: middle;
+}
+.main .main-lt .lt3 i{
+    width: 80px;
+    height: 50px;
+    background-position: 0 -145px;
+    float: left;
+}
+.main .main-lt .lt3{
+    width: 210px;
+    text-align: center;
+    background: url("../images/bae_03.png")repeat-x;
+}
+.main .main-lt .lt3 .hy{
+    float: right;
+}
+.main .main-lt .lt3 .hy p:first-of-type{
+    color: red;
+    font:bold 20px/25px "黑体";
+    padding-bottom:0;
+    padding-top: 0;
+}
+.main .main-lt .lt3 .hy p:last-of-type{
+    color: black;
+    font: 12px/25px "";
+    padding-bottom:0;
+    padding-top: 0;
+}
+.main .main-lt .lt2 .dl{
+    height: 20px ;
+    width: 40px;
+}
+.main .main-lt .lt2 .mf{
+    height: 20px ;
+    width: 75px;
+}
+.main .main-lt .lt4 .top p:first-of-type{
+    font:bold 18px/25px "";
+    color: #193d4d;
+}
+.main .main-lt .lt4 .top i{
+    width: 70px;
+    height: 45px;
+    background-position: 0 -85px;
+}
+.main .main-lt .lt4 .top p:last-of-type{
+    font: 12px/20px "宋体";
+    color: #193d4d ;
+}
+.main .main-lt .lt4 .top .lx{
+    border-bottom: dashed 2px black;
+    display: inline-block;
+}
+.main .main-lt .lt4{
+    width: 210px;
+    border: 3px solid black;
+}
